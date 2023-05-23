@@ -1,0 +1,22 @@
+{
+  "name": "flvffy.css",
+  "version": "1.0.0",
+  "description": "flvffy.css is a minimal css framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flvffywvffy/flvffy.css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "flvffywvffy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flvffywvffy/flvffy.css/issues"
+  },
+  "homepage": "https://github.com/flvffywvffy/flvffy.css#readme"
+}

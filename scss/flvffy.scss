@@ -1,0 +1,23 @@
+@import "variables";
+@import "resets";
+@import "components";
+
+.bg-primary {
+    background-color: RGBA($f-primary, $f-bg-opacity);
+}
+
+.bg-secondary {
+    background-color: RGBA($f-secondary, $f-bg-opacity);
+}
+
+.bg-success {
+    background-color: RGBA($f-success, $f-bg-opacity);
+}
+
+.bg-warning {
+    background-color: RGBA($f-warning, $f-bg-opacity);
+}
+
+.bg-danger {
+    background-color: RGBA($f-danger, $f-bg-opacity);
+}
