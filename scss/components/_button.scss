@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    padding: $f-btn-y-padding $f-btn-x-padding;
+    font-family: $f-sans-serif;
+    font-size: $f-btn-font-size;
+    font-weight: $f-btn-font-wght;
+    line-height: $f-btn-line-height;
+    color: $f-btn-font-color;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: $f-btn-border-width solid transparent;
+    border-radius: $f-btn-border-radius;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:active {
+        border-color: $f-btn-border-active-color;
+    }
+
+    &.primary {
+        background-color: RGBA($f-primary, $f-bg-opacity);
+        color: white;
+        border: none;
+        &:hover {
+            background-color: RGBA($f-primary, 0.8);
+        }
+    }
+    &.secondary {
+        background-color: RGBA($f-secondary, 0.7);
+        border: none;
+        &:hover {
+            background-color: RGBA($f-secondary, 1);
+        }
+    }
+}
